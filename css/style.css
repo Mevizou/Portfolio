@@ -82,10 +82,6 @@ section .heading h2
     background-color: #fff !important;
 }
 
-
-
-
-
 /* ABOUT */
 #about
 {
@@ -109,7 +105,7 @@ section .heading h2
     text-transform: uppercase;
     font-size: 150px;
     font-family: 'Aladin', cursive;
-    margin-top: 200px;
+    margin-top: 130px;
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: rgb(0, 169, 221);
 }
@@ -141,6 +137,8 @@ section .heading h2
     color: #d82c2e;
     text-decoration: none;
 }
+
+
 /*Apropos*/
 #Apropos{
 
@@ -356,7 +354,7 @@ h6{
 }
 #portfolio .heading h2
 {
-    color: #fff;
+    color: rgb(255, 7, 7);
 }
 #portfolio .thumbnail img
 {
