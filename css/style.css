@@ -90,6 +90,7 @@ section .heading h2
     text-align: center;
     margin: 0 auto;
     float: none;
+    
 }
 #about .heading h1
 {
@@ -352,15 +353,21 @@ h6{
 }
 #portfolio .thumbnail img
 {
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 80%;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%); 
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 #portfolio .thumbnail img:hover
 {
      filter: none;
     -webkit-filter: none; 
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
 
 
@@ -459,6 +466,7 @@ footer h5
     }
   }
 
+  
 
 
 
