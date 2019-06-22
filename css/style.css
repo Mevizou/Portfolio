@@ -92,7 +92,7 @@ section .heading h2
     float: none;
     
 }
-#about .heading h1
+#about .animated
 {
     color:rgb(0, 0, 0);
     text-decoration-color: rgb(25, 0, 255);
@@ -103,14 +103,18 @@ section .heading h2
     margin-top: 230px;
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: rgb(0, 217, 255);
-}
-#about .heading h3
+    animation-duration: 4s;
+    animation-delay: 1s;
+    /* animation-iteration-count: infinite; */
+ } 
+#about .heading h3 
 {
     color:rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 50px;
     /* text-shadow: 5px 5px 3px rgba(255, 0, 0, 0.623); */
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: rgb(7, 231, 247);
+    
 }
 .button1
 {

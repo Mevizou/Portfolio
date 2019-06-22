@@ -17,3 +17,5 @@ $(function(){
 
 
 })
+
+ScrollReveal().reveal('.headline');
