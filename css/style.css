@@ -36,12 +36,10 @@ section .heading h2
     background: #f3d550;
     margin: 0 auto;
 }
-
-
 /* MENU */
 .navbar
 {
-    background: #fa8703;
+    background: #fa03d9;
     font-size: 12px;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -65,7 +63,7 @@ section .heading h2
 .navbar-nav li a:hover, .navbar-nav li.active a
 {
     color: #d82c2e !important;
-    background-color: #fff !important;
+    background-color: rgb(255, 255, 255) !important;
 }
 .navbar-default .navbar-toggle
 {
@@ -75,45 +73,48 @@ section .heading h2
 {
     background-color: #fff !important;
 }
-
 /* ABOUT */
 #about
 {
     padding-top: 100px;
-    background: #f5d878;
-    /* background-image: url("../images/san-francisco.jpg") ; */
+    background-image: url("../images/fond.jpg" );
+    background-color: #ffba26;
     background-size: cover;
-    height:950px;
+    height:1000px;
+   
 }
 .profile-picture
 {
-    text-align: center;
     margin: 0 auto;
     float: none;
+    margin-top: 40px;
+    display: flex;
+   width: 600px;
+   height: 100px;
+    margin-left:370px;
     
 }
 #about .animated
 {
     color:rgb(0, 0, 0);
-    text-decoration-color: rgb(25, 0, 255);
+    text-decoration-color: rgb(238, 255, 0);
     /* text-shadow: 10px 5px 3px rgb(255, 0, 0); */
     text-transform: uppercase;
     font-size: 100px;
     font-family: 'Aladin', cursive;
     margin-top: 230px;
     -webkit-text-stroke: 2px;
-    -webkit-text-stroke-color: rgb(0, 217, 255);
+    -webkit-text-stroke-color: rgb(255, 238, 0);
     animation-duration: 4s;
     animation-delay: 1s;
-    /* animation-iteration-count: infinite; */
+    
  } 
 #about .heading h3 
 {
     color:rgb(0, 0, 0);
     font-size: 50px;
-    /* text-shadow: 5px 5px 3px rgba(255, 0, 0, 0.623); */
     -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: rgb(7, 231, 247);
+    -webkit-text-stroke-color: rgb(243, 247, 7);
     
 }
 .button1
@@ -136,8 +137,6 @@ section .heading h2
     color: #d82c2e;
     text-decoration: none;
 }
-
-
 /*Apropos*/
 #Apropos{
 
@@ -152,15 +151,11 @@ h6{
     font-size: 35px;  
     margin-top: 150px;
 }
-
 #btn_cv{
     text-align: center;
     background: none;
-    margin-top: 150px;
-    
+    margin-top: 150px;  
 }
-
-
 /* SKILLS */
 #skills
 {
@@ -182,12 +177,9 @@ h6{
 }
 #skills .progress h5
 {
-    /* text-shadow: 5px 5px 3px rgb(141, 1, 122); */
     color: black;
     font-size: 20px;
-
 }
-
 /* EXPERIENCE */
 #experience
 {
@@ -297,7 +289,6 @@ h6{
 {
      color: #d82c2e;
 }
-
 /* EDUCATION */
 #education
 {
@@ -345,7 +336,6 @@ h6{
 {
     margin-bottom: 20px;
 }
-    
 /* PORTFOLIO */
 #portfolio
 {
@@ -373,45 +363,6 @@ h6{
     -webkit-transform: scale(1.3);
 	transform: scale(1.3);
 }
-
-
-
-/* RECOMMANDATIONS */
-/* #recommandations
-{
-    background: #fff;
-}
-#recommandations .heading h2
-{
-  color: #d82c2e;
-}
-.carousel-control.left, .carousel-control.right
-{
-    background-image: none;
-    color: #d82c2e;
-}
-.carousel-indicators
-{
-    bottom: 0px;
-}
-.carousel-indicators li
-{
-    border-color: #d82c2e;
-}
-.carousel-indicators li.active
-{
-    background-color: #d82c2e;
-}
-#myCarousel .item
-{
-    padding: 40px 30px;
-}
-#myCarousel .item h3
-{
-    color: #d82c2e;
-    font-style: italic;
-} */
-
 /* FOOTER */
 footer
 {
@@ -461,8 +412,7 @@ footer h5
         left: -14px;
         right: auto;
         
-    }
-   
+    } 
 }
 @media screen and (max-width: 768px) {
     div.example {
