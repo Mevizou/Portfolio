@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Aladin|Lobster|Playball|Shojumaru|Lato|Lora" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+      ScrollReveal({ duration: 3000 })
+    </script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+
+    <title>AMQT</title>
+    
+    
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+    
+    
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="col-xs-8 col-md-4 profile-picture">
+                  <img src="images/tamarins.jpg" class="image" alt="Image " width="70" height="70" /> 
+                       </div> 
+              <div class="container">
+                   
+               <div class="collapse navbar-collapse" id="myNavbar">
+                   
+                   <ul class="nav navbar-nav">
+                       <li>
+                               <a href="index.html"><i class="fas fa-home"></i>    Acceuil  </a>
+                       </li>
+                       <li>
+                              <a href="index2.html"><i class="fas fa-pen-nib"></i>    Apropos</a>
+                      </li>
+                       <li>
+                           <a href="index3.html"><i class="fas fa-puzzle-piece"></i>    Activitées</a>
+                          <!-- <ul class="sous">
+                            <li><a href="">
+                              ATELIER CULINAIRE
+                            </a>
+                            </li>
+                          </ul> -->
+
+                       </li>
+                       
+                       <li>
+                           <a href="index4.html"><i class="fas fa-bus-alt"></i>    Nos Sorties</a>
+                       </li>
+                       <li>
+                           <a href="index5.html"><i class="fas fa-address-book"></i></i>    Contact</a>
+                       </li>
+   
+                       
+                   </ul>
+               </div>
+           </div>
+   
+   </nav> 
+   <div id="formulaire">
+            
+
+    <form method="post" action="tratement.php">
+    
+        <p><b><u>Formulaire de contact</u></b></p>
+
+        <p><u><label>NOM  </label> <input type="text" name="pseudo" /></u></p>
+        <p><u><label>PRENOM  </label> <input type="text" name="pseudo" /></u></p>
+        <p><u><label>N° Portable  </label> <input type="text" name="pseudo" /></u></p>
+        <p><u><label>Email  </label> <input type="text" name="pseudo" width="10px" height="20px"/></u></p>
+        <p><u><label>Laisser vos commentaires   </label></u><br />
+        <textarea name="Commentaire" id="Commentaire" rows="10" cols="50">
+        </textarea> </p>
+        <p><input type="button" value="Envoyer">
+        
+    </form> 
+
+</div>
+        
+          <script>
+            ScrollReveal().reveal('.headline')
+            ScrollReveal().reveal('.tagline', { delay: 900 })
+            ScrollReveal().reveal('.punchline', { delay: 2000 })
+            ScrollReveal().reveal('.suitline', { delay: 3000 })
+            ScrollReveal().reveal('.courline', { delay: 3000 })
+          </script>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+   
+ 
+   <script src = " https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js " ></script>
+ 
+</body>
+</html>

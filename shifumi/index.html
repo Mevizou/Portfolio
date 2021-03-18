@@ -16,6 +16,11 @@
                 <button id="ciseaux"><img src="images/ciseau.jpg"width="90px" height="80px"><br>Ciseaux</button>
             </div>
             <div id="statut-jeu"></div>
+           <!--<input type="button" onclick='window.location.reload(false)' value="Rafraichir"/> -->
+           
+           <buttons id="reload" onclick='window.location.reload(false)' value="Rafraichir"><img src="images/index.png"width="40px" height="40px" ></buttons>
+
+
         </div>
     </body>
 </html>
@@ -34,6 +39,7 @@
  
     var scortO = 0;
     var scortU = 0;
+   
   
     function comparer(_choixOrdi, _choixUtilisateur) {
   
@@ -107,9 +113,10 @@
                     }
             });
         }
+        
     }
-  
+    
     main();
-  
+    
   
 </script>

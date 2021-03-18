@@ -33,14 +33,14 @@ section .heading h2
 {
     width:100px;
     height: 2px;
-    background: #f3d550;
+    background: #fffefe;
     margin: 0 auto;
 }
 /* MENU */
 .navbar
 {
-    background: #fa5e03;
-    font-size: 12px;
+    background: #fa03d9;
+    font-size: 20px;
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: bold;
@@ -58,7 +58,7 @@ section .heading h2
 }
 .navbar li a
 {
-    color: #fff !important;
+    color: rgb(2, 2, 2) !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a
 {
@@ -77,10 +77,10 @@ section .heading h2
 #about
 {
     padding-top: 100px;
-    /* background-image: url("../images/fond.jpg" ); */
-    background-color: #ffba26;
+    background-image: url("../images/fond.jpg" );
+    background-color: #b300fa;
     background-size: cover;
-    height:1000px;
+    height: 35%;
    
 }
 .profile-picture
@@ -140,13 +140,13 @@ section .heading h2
 /*Apropos*/
 #Apropos{
 
-    background: #ffa126;
+    background: #030303;
 }
 h6{
 
     text-align: center; 
     font-family: 'Lora', serif;
-    color: rgb(3, 3, 3);
+    color: rgb(255, 254, 254);
     /* text-shadow: 8px 8px 10px rgb(1, 4, 156); */
     font-size: 35px;  
     margin-top: 150px;
@@ -159,11 +159,11 @@ h6{
 /* SKILLS */
 #skills
 {
-    background: #fff;
+    background: #f700ff;
 }
 #skills .heading h2
 {
-    color: #d82c2e;
+    color: #050505;
 }
 #skills .progress
 {
@@ -173,21 +173,21 @@ h6{
 }
 #skills .progress-bar
 {
-    background: #f5af2d;
+    background: #030303;
 }
 #skills .progress h5
 {
-    color: black;
+    color: rgb(255, 251, 251);
     font-size: 20px;
 }
 /* EXPERIENCE */
 #experience
 {
-    background: #ffa126;
+    background: #000000;
 }
 #experience .heading h2
 {
-    color: #fff;
+    color: rgb(225, 6, 245);
 }
 .timeline
 {
@@ -292,11 +292,11 @@ h6{
 /* EDUCATION */
 #education
 {
-    background: #fff;
+    background: rgb(8, 8, 8);
 }
 #education .heading h2
 {
-    color: #d82c2e;
+    color: #fffefe;
 }
 .education-block
 {
@@ -304,7 +304,7 @@ h6{
     margin: 0 auto;
     text-align: center;
     padding: 30px;
-    background: #ddd;
+    background: rgb(250, 248, 250);
     border-radius: 10px;
     border: 2px solid #ccc;
     margin-bottom: 20px;
@@ -322,7 +322,7 @@ h6{
 }
 .education-block h3
 {
-     color: #d82c2e;
+     color: #050505;
 }
 .education-block h4
 {
@@ -339,11 +339,11 @@ h6{
 /* PORTFOLIO */
 #portfolio
 {
-    background: #ffa126;
+    background: #f700ff;
 }
 #portfolio .heading h2
 {
-    color: rgb(255, 7, 7);
+    color: rgb(5, 5, 5);
 }
 #portfolio .thumbnail img
 {
@@ -366,14 +366,14 @@ h6{
 /* FOOTER */
 footer
 {
-    background: #ffffff;
+    background: #070707;
     padding: 20px 0 40px;
 }
 footer .glyphicon
 {
     font-size:  25px;
     margin: 20px;
-    color: #d82c2e;
+    color: #fdfdfd;
     height: 30px;
 }
 footer .glyphicon:hover
@@ -382,7 +382,7 @@ footer .glyphicon:hover
 }
 footer h5
 {
-    color: rgb(7, 7, 7);
+    color: rgb(253, 251, 251);
     font-weight: normal;
 }
 
